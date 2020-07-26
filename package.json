@@ -10,7 +10,8 @@
   "scripts": {
     "test": "karma start",
     "start": "lite-server",
-    "stryker": "stryker run"
+    "mutation": "stryker run",
+    "check-style": "prettier --check \"src/**/*.js\""
   },
   "keywords": [],
   "author": "",
@@ -31,6 +32,7 @@
     "karma-coverage": "^1.1.2",
     "karma-jasmine": "^3.1.0",
     "lite-server": "^2.5.4",
+    "prettier": "^2.0.5",
     "@stryker-mutator/core": "^3.1.0",
     "@stryker-mutator/jasmine-framework": "^3.1.0",
     "@stryker-mutator/javascript-mutator": "^3.1.0",
